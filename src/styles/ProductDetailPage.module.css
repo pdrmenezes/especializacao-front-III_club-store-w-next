@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  gap: 30px;
+  /* width: var(--max-width); */
+  max-width: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0.6);
+}
